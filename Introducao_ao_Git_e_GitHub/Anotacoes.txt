@@ -1,0 +1,3 @@
+git init - Inicia um repositório git na pasta atual
+git add * - Adiciona todos os arquivos "untracked" para "tracked", e deixa eles prontos para serem commitados
+git commit -m "" - Comita os arquivos que estão em estado "staged" com um comentario entre as aspas.
