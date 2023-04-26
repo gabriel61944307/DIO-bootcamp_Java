@@ -1,3 +1,4 @@
+import br.com.dio.desafio.dominio.Conteudo;
 import br.com.dio.desafio.dominio.Curso;
 import br.com.dio.desafio.dominio.Mentoria;
 
@@ -7,10 +8,10 @@ import java.time.LocalDate;
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        Curso curso1 = new Curso("Curso Java", "Descricao Java.", 8);
+        Conteudo curso1 = new Curso("Curso Java", "Descricao Java.", 8);
         Curso curso2 = new Curso("Curso JavaScript", "Descricao JavaScript.", 5);
 
-        Mentoria mentoria1 = new Mentoria("Banco PAN", "Descricao mentoria.", LocalDate.now());
+        Conteudo mentoria1 = new Mentoria("Banco PAN", "Descricao mentoria.", LocalDate.now());
 
         System.out.println(curso1);
         System.out.println(curso2);
