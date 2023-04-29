@@ -14,12 +14,12 @@ public class StartApp implements CommandLineRunner{
 	
 	@Override
 	public void run(String... args) throws Exception {
-		User user = new User();
-		user.setName("Gabriel");
-		user.setUsername("gabriel123");
-		user.setPassword("123");
+		User test = new User();
+		test.setName("Gabriel");
+		test.setUsername("gabriel123");
+		test.setPassword("123");
 		
-		repository.save(user);
+		repository.save(test);
 		
 		for(User u: repository.findAll()) {
 			System.out.println(u);
